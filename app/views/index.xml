@@ -1,0 +1,65 @@
+<Alloy>
+	<Window class="container">
+    <Label id="currentWord"></Label>
+    <View id="table">
+        <View class="row">
+            <View id="letter_container_0_0" class="letter_container">
+                <Label id="letter_0_0" class="letter" ></Label>
+            </View>
+            <View id="letter_container_0_1" class="letter_container">
+                <Label id="letter_0_1" class="letter"></Label>
+            </View>
+            <View id="letter_container_0_2" class="letter_container">
+                <Label id="letter_0_2" class="letter"></Label>
+            </View>
+            <View id="letter_container_0_3" class="letter_container">
+                <Label id="letter_0_3" class="letter"></Label>
+            </View>
+        </View>
+        <View class="row">
+            <View id="letter_container_1_0" class="letter_container">
+                <Label id="letter_1_0" class="letter"></Label>
+            </View>
+            <View id="letter_container_1_1" class="letter_container">
+                <Label id="letter_1_1" class="letter"></Label>
+            </View>
+            <View id="letter_container_1_2" class="letter_container">
+                <Label id="letter_1_2" class="letter"></Label>
+            </View>
+            <View id="letter_container_1_3" class="letter_container">
+                <Label id="letter_1_3" class="letter"></Label>
+            </View>
+        </View>
+        <View class="row">
+            <View id="letter_container_2_0" class="letter_container">
+                <Label id="letter_2_0" class="letter"></Label>
+            </View>
+            <View id="letter_container_2_1" class="letter_container">
+                <Label id="letter_2_1" class="letter"></Label>
+            </View>
+            <View id="letter_container_2_2" class="letter_container">
+                <Label id="letter_2_2" class="letter"></Label>
+            </View>
+            <View id="letter_container_2_3" class="letter_container">
+                <Label id="letter_2_3" class="letter"></Label>
+            </View>
+        </View>
+        <View class="row">
+            <View id="letter_container_3_0" class="letter_container">
+                <Label id="letter_3_0" class="letter"></Label>
+            </View>
+            <View id="letter_container_3_1" class="letter_container">
+                <Label id="letter_3_1" class="letter"></Label>
+            </View>
+            <View id="letter_container_3_2" class="letter_container">
+                <Label id="letter_3_2" class="letter"></Label>
+            </View>
+            <View id="letter_container_3_3" class="letter_container">
+                <Label id="letter_3_3" class="letter"></Label>
+            </View>
+        </View>
+    </View>
+    <View id="touchTable"></View>
+    <Label id="debug"></Label>
+	</Window>
+</Alloy>

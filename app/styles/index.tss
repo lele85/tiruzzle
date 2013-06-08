@@ -1,0 +1,49 @@
+".container": {
+	backgroundColor:"white"
+},
+"#table": {
+    top: '80dp',
+	width: '320dp',
+	height: '320dp',
+	color: "#000",
+    layout: "vertical"
+},
+".row":{
+    layout : "horizontal",
+    width : '320dp',
+    height : '80dp',
+    borderColor : 'red',
+    border : "1dp"
+},
+".letter_container":{
+    width : '80dp',
+    height : '80dp',
+    borderColor : 'blue',
+    backgroundColor : 'blue',
+    border : "1dp"
+},
+"#touchTable":{
+    top: '80dp',
+    width: '320dp',
+    height: '320dp',
+},
+".letter":{
+    width : '65dp',
+    height : '65dp',
+    borderColor : 'green',
+    backgroundColor : 'white',
+    border : "1dp",
+    textAlign : 'center'
+},
+"#currentWord": {
+    top: 0,
+    width: '320dp',
+    height: "80dp",
+    textAlign : "center"
+},
+"#debug": {
+    top: '400dp',
+    width: '320dp',
+    height: "80dp",
+    textAlign : "center"
+}
